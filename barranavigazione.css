@@ -1,0 +1,93 @@
+body {
+  background-color: #F5F5F5;
+  margin: 0;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+#logoimg{
+  display: block;
+  height: 54px;
+  width: auto;
+  z-index: 3;
+  border-radius: 0%;
+}
+
+#logoimg:hover{
+  height: 54.5px;
+  margin-bottom: -0.5px;
+  
+}
+
+a {
+  cursor: pointer;
+  padding: 30px;
+  }
+
+a.button {
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 100px;
+}
+
+a.button:hover, a:hover , a:active, a.button:active{
+  background-color: #F5F5F5;
+  color: black;
+ 
+}
+
+a:active, a.button:active{
+  font-size: 13.2px;
+}
+
+a:hover{
+  padding-bottom: 3%;
+}
+
+a.button:hover{
+  padding: 10px 15px;
+}
+
+
+#links {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#navigazione {
+  color: #F5F5F5;
+}
+
+#navigazione nav {
+   backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(238, 238, 238, 0.774);
+  color: #333333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 2px 2px 2px 2px #dedede;
+  font-size: 13px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+
+#links a {
+  width: 20px;
+  color: #333333;
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 40px;
+  color: black;
+}
+
+
+#submit:active, .submit:active{
+  background-color: #0068ef;
+}

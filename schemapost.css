@@ -1,0 +1,295 @@
+body{
+  background-color: #F5F5F5;
+}
+
+
+
+section {
+  margin-top: 60px;
+  width: 600px;
+  height: 500px;
+  margin-left: auto; 
+  margin-right: auto;
+  
+  
+}
+section div{
+  
+  border-radius: 5px;
+  
+}
+
+.post{
+  background-color: white;
+  height: 100%;
+  border: solid #C0C0C0 1px ;
+  box-shadow: 1px 2px #C0C0C0;
+  margin-bottom: 20px;
+}
+  
+.header{
+  font-size: 100%;
+  //border: solid 2px red;
+  padding-left: 20px;
+  border-bottom: solid 1px grey;
+  margin-bottom: 5px;
+  border-radius: 0px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 17%;
+}
+
+.fotoutente{
+  width: 16%;
+  height: 82%;
+  border-radius: 100%;
+  border: solid rgb(206, 206, 206) 1px;
+  margin: auto 10px;
+}
+
+.nome{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  //border: solid 2px;  
+}
+
+.username{
+  height: 40%;
+  //border: solid 2px;  
+  display: flex; 
+  margin-top: 15px;
+  margin-bottom: 0px;
+  align-items: flex-end;
+}
+
+.nomeecognome{
+  height: 30%;
+  font-weight: lighter;
+  //border: solid 2px;  
+  display: flex;
+  font-size: 1.2em;
+  color: silver;
+  margin: 0px;
+  margin-top: -5px;
+  align-items: flex-end;
+}
+
+.info_utente{
+  display: flex;
+  height: 100%;
+  //border: solid 2px yellow;
+  width: 80%;
+}
+  
+.info_post{
+  display: flex;
+  height: 100%;
+  //border: solid 2px green;
+  width: 20%;
+  color: grey;
+  flex-direction: column;
+}
+
+.info_post span{
+  display: flex;
+  font-size: 20px;
+}
+  
+.corpo_post{
+  display: flex;
+  //border: solid 2px orange;
+  justify-content: space-around;
+  height: 70%;
+}
+  
+.img_post{
+  margin-left: 5px;
+  display:flex;
+  //border: solid 2px ;
+  width: 40%;
+  height: 100%;
+  align-items: flex-start;
+  
+  
+}
+
+.img_post img{
+  width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
+  margin-top: 2px;
+  z-index: 2;
+  
+}
+
+.traccia{
+  margin-top: 250px;
+  position: absolute;
+  z-index: 1;
+  align-items: flex-end;
+  //border: solid 2px blue;
+  width: 235px;
+  height: 50px;
+}
+
+.traccia video{
+  
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.novideo{
+  display: none;
+}
+  
+.testo_post{
+  display:flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  //border: solid 2px grey;
+  width: 50%; 
+}
+
+.titolo_post h1{
+  font-size: 150%;
+  margin-top: 5px;
+  height: auto;
+  
+}
+  
+.titolo_post{
+  font-size: x-large;
+  display: flex;
+  //border: solid 2px yellow;
+  height: auto;
+  
+}
+  
+.commento_post{
+  display: flex;
+  //border: solid 2px;
+  height: auto;
+}
+
+.corpo_post span{
+  font-size: 160%;
+  text-align: start;
+  width: auto;
+} 
+
+.like{
+  padding-left: 20px;
+  font-size: 35px;
+  height: 11%;
+  width: 60%;
+  color: grey;
+}
+
+i.fas.fa-heart{
+  
+  margin-top: 3px;
+  margin-bottom: -4px;
+}
+
+.mipiace{
+  margin-bottom: 2px;
+  color: red;
+}
+
+ i.far.fa-heart:hover{
+  cursor: pointer;
+  color: black;
+ }
+
+.span_count:hover{
+  cursor: pointer;
+  display: inline-block;
+  width: 100%
+  height:100%;
+  background-color: silver;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: auto;
+  font-size: 35px;
+  min-width: 30px;
+}
+
+
+/*modale vedi like*/
+
+
+#sezionelike{
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+  position: absolute;
+  top: 0;
+  left:0;
+  height:100vh;
+  width: 100vw;
+  background-color: rgb(0,0,0,0.9);
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+
+#sezionelike.hidden{
+  display: none;
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+.scroll{
+  overflow: auto;
+  //overflow: scroll;
+}
+
+.div1{
+    
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;  
+  border-radius: 5px;
+  background-color: white;
+  z-index: 5;
+  font-size:12px
+
+}
+
+.grigliainterna{
+  width: 100%;
+  margin: 0px;
+}
+
+#sezionelike.header{
+  margin-left: 0px;
+  width: 30%;
+  font-size: 2px;
+}
+
+#sezionelike.username, #sezionelike.nomeecognome{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height:20%;
+  margin: auto;
+}
+
+
+
+#sezionelike.fotoutente{
+   width : 80px;
+   height: 80px;
+}
+

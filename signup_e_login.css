@@ -1,0 +1,156 @@
+body{
+  background-image: url("./sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+#intestazione{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+  #imglogo{
+    display: flex;
+    height: 100px;
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+#benvenuto{
+  font-family: 'Russo One', sans-serif;
+  display:flex;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  margin-bottom: -120px;
+}
+  
+
+span, input, p{
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+
+form{
+  display: block;
+  width: 100%;
+}
+.heading{
+  display: block;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #f0f0f0;
+  
+}
+
+#overlay {
+  background-color:
+    rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 30px;;
+    height: 40%;
+    align-items: center;
+  }
+  
+  p {
+    justify-content: center;
+    display: flex;
+    margin: 0.3em auto;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  
+  .errore {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  input {
+    
+    background: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 0 20px 0 45px;
+    height: 40px;
+    width: 100%;
+  }
+
+  input:focus{
+    background: #e0e0e0;
+    box-shadow: none;
+    outline: 0 none;
+  }
+
+  input:focus{
+    background: #e0e0e0;
+    box-shadow: none;
+    outline: 0 none;
+  }
+  
+
+  #submit {
+    
+    font-size: 14px;
+    color: #fff;
+    background: #007bef;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+    text-transform: capitalize;
+    display: flex;
+    
+  }
+
+  #submit:active, .submit:active{
+    background-color: #0068ef;
+  }
+
+  i{
+    margin-left: -95%;
+    font-size: 17px;
+    color: #c8c8c8;
+    
+  }
+
+.form_control:focus +i{
+  color: #00b4ef;
+}
+
+#imguser{
+  width: 120px;
+  height: 120px;
+  margin: -60px;
+  margin-left: calc(50% - 60px);
+  margin-bottom: -50px;
+  border-radius: 50%;
+  border: solid rgb(255, 255, 255) 8px;
+   
+}
